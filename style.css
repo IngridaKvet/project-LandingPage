@@ -1,13 +1,89 @@
-/* Universal */
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --buttons-bg-color: #4CAF4F;
+    --header-bg-color: #F5F7FA;
+    --footer-bg-color: #263238;
+    --hero-customers-CTA-stats-bg-color: #e4efff;
 }
 
-img{
+* {
+    font-family: "inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
     max-inline-size: 100%;
     display: block;
 }
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    .logo {
+        height: 20%;
+    }
+    .nav-options {
+        display: flex;
+        list-style: none;
+        gap: 3rem;
+        a {
+            text-decoration: none;
+            color: #18191F;
+        }
+        a:hover {
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.25s;
+            color: var(--buttons-bg-color);
+        }
+    }
+    .nav-buttons .nav-login {
+        border: none;
+        color: var(--buttons-bg-color);
+        background: none;
+        margin-right: 1.5rem;
+        font-weight: 600;
+    }
+    .nav-buttons .nav-login:hover {
+        color: #18191F;
+        cursor: pointer;
+        transition: 0.25s;
+    }
+    .nav-buttons .nav-signup {
+        border: none;
+        color: var(--header-bg-color);
+        background-color: var(--buttons-bg-color);
+        padding: 1rem 1.2rem 1rem 1.2rem;
+        border-radius: 0.5rem;
+        font-weight: 600;
+    }
+    .nav-buttons .nav-signup:hover {
+        background-color: #18191F;
+        cursor: pointer;
+        transition: 0.25s;
+    }
+}
+
+@media screen and (width <= 950px) {
+    .nav-bar {
+        height: 20vh;
+        background-color: var(--hero-customers-CTA-stats-bg-color);
+        gap: 3vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .nav-options{
+            gap: 1rem;
+        }
+        .logo {
+            height: 12%;
+        }
+
 
 /* Hero styles */
 .hero{
