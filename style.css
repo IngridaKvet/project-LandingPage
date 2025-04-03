@@ -19,10 +19,10 @@
     height: 100%;
     width: 50%;
     display: flex;
-    flex-direction: row;
     background-color: aqua;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .statisticsk {
@@ -53,8 +53,8 @@
 }
 
 .members {
-    width: 18%;
     background-color: black;
     height: 4rem;
     margin-left: 1rem;
+    width: 13rem;
 }
