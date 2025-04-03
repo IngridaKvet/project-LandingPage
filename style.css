@@ -12,10 +12,16 @@ img{
 /* Hero styles */
 .hero{
     display: flex;
-    gap: 6.5rem;
-    padding-block: 6rem;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #F5F7FA;
+}
+
+.hero__wrapper{
+    display: flex;
+    gap: 6.5rem;
+    padding-block: 6rem;
 }
 
 .hero__headline{
@@ -51,13 +57,21 @@ img{
     font-size: 1rem;
 }
 
-.hero-wrapper{
+.hero-text-wrapper{
     max-width: 41.063rem;
 }
 
+.hero__slider{
+    padding-bottom: 1rem;
+}
+
 @media screen and (width < 76.125rem){
+    .hero__wrapper{
+        flex-direction: column;
+    }
+
     .hero{
         flex-direction: column;
-        margin-inline: 2rem;
+        padding-inline: 2rem;
     }
 }
