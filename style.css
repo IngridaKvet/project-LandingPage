@@ -85,5 +85,55 @@ img {
         }
 
 
+/* Hero styles */
+.hero{
+    display: flex;
+    gap: 6.5rem;
+    padding-block: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__headline{
+    color: #4D4D4D;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.75rem;
+}
+
+.hero__headline-green{
+    color: #4CAF4F;
+}
+
+.hero__text{
+    color: #717171;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.hero__figure{
+    max-width: 24.438rem;
+    max-height: 25.438rem;
+}
+
+.hero__btn{
+    background-color: #4CAF4F;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+}
+
+.hero-wrapper{
+    max-width: 41.063rem;
+}
+
+@media screen and (width < 76.125rem){
+    .hero{
+        flex-direction: column;
+        margin-inline: 2rem;
     }
 }
