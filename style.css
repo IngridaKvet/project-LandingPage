@@ -151,3 +151,40 @@ img {
         padding-inline: 2rem;
     }
 }
+
+/* Clients section*/
+.clients{
+    padding-inline: 2.5rem;
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients__headline{
+    font-weight: 600;
+    color: #4D4D4D;
+    line-height: 2.75rem;
+}
+
+.clients__description{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #717171;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.clients__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.client-logo{
+    width: 48px;
+    height: 48px;
+    margin-inline: 4rem;
+    margin-bottom: 1.5rem;
+}
