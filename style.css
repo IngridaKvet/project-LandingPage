@@ -83,8 +83,8 @@ img {
         .logo {
             height: 12%;
         }
-
-
+    }
+}
 /* Hero styles */
 .hero{
     display: flex;
