@@ -24,17 +24,21 @@ img {
     justify-content: space-around;
     align-items: center;
     height: 10vh;
+
     .logo {
         height: 20%;
     }
+
     .nav-options {
         display: flex;
         list-style: none;
         gap: 3rem;
+
         a {
             text-decoration: none;
             color: #18191F;
         }
+
         a:hover {
             font-weight: 600;
             cursor: pointer;
@@ -42,6 +46,7 @@ img {
             color: var(--buttons-bg-color);
         }
     }
+
     .nav-buttons .nav-login {
         border: none;
         color: var(--buttons-bg-color);
@@ -49,11 +54,13 @@ img {
         margin-right: 1.5rem;
         font-weight: 600;
     }
+
     .nav-buttons .nav-login:hover {
         color: #18191F;
         cursor: pointer;
         transition: 0.25s;
     }
+
     .nav-buttons .nav-signup {
         border: none;
         color: var(--header-bg-color);
@@ -62,6 +69,7 @@ img {
         border-radius: 0.5rem;
         font-weight: 600;
     }
+
     .nav-buttons .nav-signup:hover {
         background-color: #18191F;
         cursor: pointer;
@@ -69,7 +77,7 @@ img {
     }
 }
 
-@media screen and (width <= 950px) {
+@media screen and (width <=950px) {
     .nav-bar {
         height: 20vh;
         background-color: var(--hero-customers-CTA-stats-bg-color);
@@ -77,16 +85,19 @@ img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .nav-options{
+
+        .nav-options {
             gap: 1rem;
         }
+
         .logo {
             height: 12%;
         }
     }
 }
+
 /* Hero styles */
-.hero{
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,24 +105,24 @@ img {
     background-color: #F5F7FA;
 }
 
-.hero__wrapper{
+.hero__wrapper {
     display: flex;
     gap: 6.5rem;
     padding-block: 6rem;
 }
 
-.hero__headline{
+.hero__headline {
     color: #4D4D4D;
     font-size: 4rem;
     font-weight: 600;
     line-height: 4.75rem;
 }
 
-.hero__headline-green{
+.hero__headline-green {
     color: #4CAF4F;
 }
 
-.hero__text{
+.hero__text {
     color: #717171;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -119,12 +130,12 @@ img {
     margin-bottom: 2rem;
 }
 
-.hero__figure{
+.hero__figure {
     max-width: 24.438rem;
     max-height: 25.438rem;
 }
 
-.hero__btn{
+.hero__btn {
     background-color: #4CAF4F;
     color: #FFF;
     border: none;
@@ -133,27 +144,27 @@ img {
     font-size: 1rem;
 }
 
-.hero-text-wrapper{
+.hero-text-wrapper {
     max-width: 41.063rem;
 }
 
-.hero__slider{
+.hero__slider {
     padding-bottom: 1rem;
 }
 
-@media screen and (width < 76.125rem){
-    .hero__wrapper{
+@media screen and (width < 76.125rem) {
+    .hero__wrapper {
         flex-direction: column;
     }
 
-    .hero{
+    .hero {
         flex-direction: column;
         padding-inline: 2rem;
     }
 }
 
 /* Clients section*/
-.clients{
+.clients {
     padding-inline: 2.5rem;
     padding-top: 2.5rem;
     display: flex;
@@ -162,13 +173,13 @@ img {
     justify-content: center;
 }
 
-.clients__headline{
+.clients__headline {
     font-weight: 600;
     color: #4D4D4D;
     line-height: 2.75rem;
 }
 
-.clients__description{
+.clients__description {
     font-size: 1rem;
     line-height: 1.5rem;
     color: #717171;
@@ -176,15 +187,70 @@ img {
     padding-bottom: 1rem;
 }
 
-.clients__wrapper{
+.clients__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.client-logo{
+.client-logo {
     width: 48px;
     height: 48px;
     margin-inline: 4rem;
     margin-bottom: 1.5rem;
+}
+
+.pixelgrade-img {
+    width: 442px;
+    height: 433px;
+    display: block;
+
+}
+
+section.pixelgrade-float {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    padding-right: 144px;
+    padding-left: 144px;
+    gap: 49px;
+    justify-content: center;
+}
+
+div.pixelgrade-h2 {
+    gap: 16px;
+    width: 661px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2.h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    color: #4D4D4D;
+}
+
+button.pixelgrade-button {
+    width: 151;
+    height: 52;
+    padding-top: 14px;
+    padding-right: 32px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    gap: 10px;
+    border-radius: 4px;
+    background: #4CAF4F;
+    margin-top: 32px;
+}
+@media screen and (width <=950px) {
+   section.pixelgrade-float{ 
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
 }
