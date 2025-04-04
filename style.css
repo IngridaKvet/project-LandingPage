@@ -191,3 +191,17 @@ img {
     cursor: pointer;
     transition: 0.25s;
 }
+.article-figure {
+    max-width: 24.438rem;
+    max-height: 25.438rem;
+}
+@media screen and (width < 76.125rem){
+
+    .article-wrapper {
+        flex-direction: column;
+    }
+    .article {
+        padding: 0;
+
+    }
+}
