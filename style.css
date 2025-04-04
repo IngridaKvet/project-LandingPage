@@ -251,7 +251,6 @@ img {
         flex-direction: column;
         padding-inline: 2rem;
     }
-
     .community__card-wrapper{
         padding-inline: 2.5rem;
         justify-content: space-around;
@@ -266,3 +265,59 @@ img {
         padding-left: 0;
     }
 }
+
+/* Article styles */
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+.article-wrapper {
+    display: flex;
+    gap: 6.5rem;
+    align-items: center;
+}
+.article-text-wrapper {
+    max-width: 41.063rem;
+}
+.article-heading {
+    font-size: 2.5rem;
+    color: #4D4D4D;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.article-text {
+    font-size: 1rem;
+    color: #717171;
+    margin-bottom: 2rem;
+}
+.article-btn {
+    background-color: #4CAF4F;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+}
+.article-btn:hover {
+    background-color: #18191F;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.article-figure {
+    max-width: 24.438rem;
+    max-height: 25.438rem;
+}
+@media screen and (width < 76.125rem){
+
+    .article-wrapper {
+        flex-direction: column;
+    }
+    .article {
+        padding: 0;
+
+    }
+}
+
+    
