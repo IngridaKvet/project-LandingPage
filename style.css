@@ -278,7 +278,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 10%;
 }
 
 
@@ -336,7 +335,6 @@ img {
 .membersdesc {
     display: flex;
     flex-direction: column;
-    line-height: 1%;
     margin-left: 2rem;
 }
 
@@ -348,7 +346,7 @@ img {
 
 .memberslogo3 {
     background-image: url(img/Payments.png);
-    height: 100%;
+    height: 5rem;
     width: 4rem;
 }
 
