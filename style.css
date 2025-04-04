@@ -269,12 +269,13 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6rem;
+    padding-top: 4.125rem;
 }
 .article-wrapper {
     display: flex;
     gap: 6.5rem;
     align-items: center;
+    padding-inline: 2rem;
 }
 .article-text-wrapper {
     max-width: 41.063rem;
@@ -308,13 +309,8 @@ img {
     max-height: 25.438rem;
 }
 @media screen and (width < 76.125rem){
-
     .article-wrapper {
         flex-direction: column;
-    }
-    .article {
-        padding: 0;
-
     }
 }
 
