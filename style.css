@@ -194,8 +194,6 @@ img {
     max-width: 33.875rem;
     text-align: center;
     padding-bottom: 0.5rem;
-    padding-left: 7rem;
-    box-sizing: content-box;
 }
 
 .community__description{
@@ -204,14 +202,14 @@ img {
     line-height: 1.5rem;
     text-align: center;
     padding-bottom: 1rem;
-    padding-left: 7rem;
-    box-sizing: content-box;
+    max-width: 16.688rem;
 }
 
 .community__card-wrapper{
     display: flex;
-    max-width: 72.5rem;
     flex-wrap: wrap;
+    gap: 8.125rem;
+    row-gap: 2rem;
 }
 
 .community__card{
@@ -219,8 +217,8 @@ img {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding: 2.5rem;
     gap: 1rem;
+    width: 16.688rem;
 }
 
 .community__card-icon{
@@ -271,12 +269,13 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6rem;
+    padding-top: 4.125rem;
 }
 .article-wrapper {
     display: flex;
     gap: 6.5rem;
     align-items: center;
+    padding-inline: 2rem;
 }
 .article-text-wrapper {
     max-width: 41.063rem;
@@ -310,13 +309,8 @@ img {
     max-height: 25.438rem;
 }
 @media screen and (width < 76.125rem){
-
     .article-wrapper {
         flex-direction: column;
-    }
-    .article {
-        padding: 0;
-
     }
 }
 
