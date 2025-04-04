@@ -270,6 +270,8 @@ img {
     background-color: #F5F7FA;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 .stakaire {
@@ -278,13 +280,14 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 540px;
 }
 
 
 .statisticsk {
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
+    align-items: center;
 }
 
 .stah1 {
@@ -316,6 +319,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    max-width: 700px;
 }
 
 .members {
