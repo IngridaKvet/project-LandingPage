@@ -71,7 +71,7 @@ img {
 
 @media screen and (width <= 950px) {
     .nav-bar {
-        height: 20vh;
+        height: 35vh;
         background-color: var(--hero-customers-CTA-stats-bg-color);
         gap: 3vh;
         flex-direction: column;
@@ -81,7 +81,12 @@ img {
             gap: 1rem;
         }
         .logo {
-            height: 12%;
+            height: 10%;
+        }
+        .nav-options {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
     }
 }
